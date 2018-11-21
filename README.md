@@ -2,7 +2,7 @@
 
 如何安装应用降级[App_Admin_Cydia_tweak](https://yalujailbreak.net/app-admin/#Download_App_Admin_Cydia_tweak)
 
-[不看文章直接安装deb](Packages/com.app.test.Test-appstore-admin_0.1-1_iphoneos-arm.deb)
+[不看文章直接安装 deb 解决问题](Packages/com.app.test.Test-appstore-admin_0.1-1_iphoneos-arm.deb)
 
 在 iOS 11 使用 App Admin 每次点击下载后都闪退，但是 google 一些国外的文章都说是好用的，很捉急。原本也不着急解决，但是最近需要老版本来验证点东西，没办法，就写了一个 tweak 修复这个 bug 。
 
