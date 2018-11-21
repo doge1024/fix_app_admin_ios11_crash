@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34866F9D21A5A73B003A959A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34866F9C21A5A73B003A959A /* UIKit.framework */; };
+		34866F9F21A5A73B003A959A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34866F9E21A5A73B003A959A /* Foundation.framework */; };
+		34866FA121A5A73B003A959A /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34866FA021A5A73B003A959A /* CydiaSubstrate.framework */; };
+		34866FAA21A5A73B003A959A /* Test_appstore_admin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34866FA921A5A73B003A959A /* Test_appstore_admin.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34866F9921A5A73B003A959A /* Test_appstore_admin.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Test_appstore_admin.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		34866F9C21A5A73B003A959A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		34866F9E21A5A73B003A959A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		34866FA021A5A73B003A959A /* CydiaSubstrate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CydiaSubstrate.framework; path = Library/Frameworks/CydiaSubstrate.framework; sourceTree = DEVELOPER_DIR; };
+		34866FA521A5A73B003A959A /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		34866FA721A5A73B003A959A /* Test_appstore_admin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test_appstore_admin-Prefix.pch"; sourceTree = "<group>"; };
+		34866FA821A5A73B003A959A /* Test_appstore_admin.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = Test_appstore_admin.xm; sourceTree = "<group>"; };
+		34866FA921A5A73B003A959A /* Test_appstore_admin.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Test_appstore_admin.mm; sourceTree = "<group>"; };
+		34866FAE21A5A73B003A959A /* Test_appstore_admin.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Test_appstore_admin.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/Test_appstore_admin.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34866F9521A5A73B003A959A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34866F9D21A5A73B003A959A /* UIKit.framework in Frameworks */,
+				34866F9F21A5A73B003A959A /* Foundation.framework in Frameworks */,
+				34866FA121A5A73B003A959A /* CydiaSubstrate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34866F8E21A5A73B003A959A = {
+			isa = PBXGroup;
+			children = (
+				34866FA221A5A73B003A959A /* Test_appstore_admin */,
+				34866F9B21A5A73B003A959A /* Frameworks */,
+				34866F9A21A5A73B003A959A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34866F9A21A5A73B003A959A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34866F9921A5A73B003A959A /* Test_appstore_admin.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34866F9B21A5A73B003A959A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34866F9C21A5A73B003A959A /* UIKit.framework */,
+				34866F9E21A5A73B003A959A /* Foundation.framework */,
+				34866FA021A5A73B003A959A /* CydiaSubstrate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34866FA221A5A73B003A959A /* Test_appstore_admin */ = {
+			isa = PBXGroup;
+			children = (
+				34866FA821A5A73B003A959A /* Test_appstore_admin.xm */,
+				34866FA921A5A73B003A959A /* Test_appstore_admin.mm */,
+				34866FA321A5A73B003A959A /* Package */,
+				34866FA621A5A73B003A959A /* Supporting Files */,
+			);
+			path = Test_appstore_admin;
+			sourceTree = "<group>";
+		};
+		34866FA321A5A73B003A959A /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				34866FA421A5A73B003A959A /* DEBIAN */,
+				34866FAB21A5A73B003A959A /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		34866FA421A5A73B003A959A /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				34866FA521A5A73B003A959A /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		34866FA621A5A73B003A959A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34866FA721A5A73B003A959A /* Test_appstore_admin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34866FAB21A5A73B003A959A /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				34866FAC21A5A73B003A959A /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		34866FAC21A5A73B003A959A /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				34866FAD21A5A73B003A959A /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		34866FAD21A5A73B003A959A /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				34866FAE21A5A73B003A959A /* Test_appstore_admin.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		34866F9621A5A73B003A959A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		34866F9821A5A73B003A959A /* Test_appstore_admin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34866FB121A5A73B003A959A /* Build configuration list for PBXNativeTarget "Test_appstore_admin" */;
+			buildPhases = (
+				34866F9321A5A73B003A959A /* ShellScript */,
+				34866F9421A5A73B003A959A /* Sources */,
+				34866F9521A5A73B003A959A /* Frameworks */,
+				34866F9621A5A73B003A959A /* Headers */,
+				34866F9721A5A73B003A959A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test_appstore_admin;
+			productName = Test_appstore_admin;
+			productReference = 34866F9921A5A73B003A959A /* Test_appstore_admin.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34866F8F21A5A73B003A959A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				TargetAttributes = {
+					34866F9821A5A73B003A959A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 34866F9221A5A73B003A959A /* Build configuration list for PBXProject "Test_appstore_admin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 34866F8E21A5A73B003A959A;
+			productRefGroup = 34866F9A21A5A73B003A959A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34866F9821A5A73B003A959A /* Test_appstore_admin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34866F9321A5A73B003A959A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+		34866F9721A5A73B003A959A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34866F9421A5A73B003A959A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34866FAA21A5A73B003A959A /* Test_appstore_admin.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		34866FAF21A5A73B003A959A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"Test_appstore_admin\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34866FB021A5A73B003A959A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"Test_appstore_admin\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		34866FB221A5A73B003A959A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test_appstore_admin/Test_appstore_admin-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = 192.168.0.106;
+				MonkeyDevDevicePassword = alpine;
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34866FB321A5A73B003A959A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test_appstore_admin/Test_appstore_admin-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = 192.168.0.106;
+				MonkeyDevDevicePassword = alpine;
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34866F9221A5A73B003A959A /* Build configuration list for PBXProject "Test_appstore_admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34866FAF21A5A73B003A959A /* Release */,
+				34866FB021A5A73B003A959A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34866FB121A5A73B003A959A /* Build configuration list for PBXNativeTarget "Test_appstore_admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34866FB221A5A73B003A959A /* Release */,
+				34866FB321A5A73B003A959A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34866F8F21A5A73B003A959A /* Project object */;
+}
